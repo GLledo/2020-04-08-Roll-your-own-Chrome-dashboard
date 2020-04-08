@@ -1,0 +1,18 @@
+{
+  "short_name": "Home Photo Extension",
+  "name": "Home Photo Extension",
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_icon": "camera-flash.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "version": "1.0",
+  "manifest_version": 2,
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "content_security_policy": "script-src 'self' 'sha256-WA8Frng0Xk80yNtqWvhY82V19pDjz2YL+hzcnIYAD0k='; object-src 'self'"
+}
